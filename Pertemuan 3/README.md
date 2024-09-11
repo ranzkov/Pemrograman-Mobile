@@ -1,6 +1,6 @@
-Nama    : Fitriani Novita Maharani
-Kelas   : TI-3D
-NIM/Absen : 2241720235 / 11
+Nama    : Fitriani Novita Maharani<br>
+Kelas   : TI-3D<br>
+NIM/Absen : 2241720235 / 11<br>
 # Tugas Praktikum
 1. Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
   
@@ -28,7 +28,8 @@ NIM/Absen : 2241720235 / 11
     <strong><span style="color:red">Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"</span></strong>
     <img src="img/forbreak1.png">
     <br>
-   **Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.**
+
+    **Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.** <br>
     >Error: Index seharusnya index (huruf kecil) dan variabel harus diinisialisasi dalam for-loop.
     Perbaikan: Ganti Index dengan index dan tambahkan index++ untuk memastikan perulangan berjalan dengan benar.<br>
 
@@ -36,15 +37,12 @@ NIM/Absen : 2241720235 / 11
     <img src="img/output3.png">
 
 `   <br>
-    <img src="img/forbreak3.png">
+    <img src="img/forbreak3.png"><br>
+    **Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.**<br>
+>- Error pada kondisi if dan else if: Penulisan "if" dan "else if" harus dimulai dengan huruf kecil.
+>- Kondisi pada else if: Kondisi index > 1 || index < 7 tidak tepat untuk range 10 hingga 26. Karena ini akan selalu true bagi nilai "index", kecuali index == 7, maka "continue" akan dieksekusi terus-menerus, sehingga hanya nilai index == 7 yang dicetak. Ini mungkin bukan yang diinginkan.
 
-    **Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.**
-
-    >- Error pada kondisi if dan else if: Penulisan "if" dan "else if" harus dimulai dengan huruf kecil.
-    >- Kondisi pada else if: Kondisi index > 1 || index < 7 tidak tepat untuk range 10 hingga 26. Karena ini akan selalu true bagi nilai "index", kecuali index == 7, maka "continue" akan dieksekusi terus-menerus, sehingga hanya nilai index == 7 yang dicetak. Ini mungkin bukan yang diinginkan.
-
-    **Perbaikan:**<br>
-
+**Perbaikan:**<br>
     <img src="img/forbreak4.png">
     <img src="img/output3.png">
 
