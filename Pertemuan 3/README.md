@@ -41,12 +41,12 @@ NIM/Absen : 2241720235 / 11
     >- Error pada kondisi if dan else if: Penulisan "if" dan "else if" harus dimulai dengan huruf kecil.
     >- Kondisi pada else if: Kondisi index > 1 || index < 7 tidak tepat untuk range 10 hingga 26. Karena ini akan selalu true bagi nilai "index", kecuali index == 7, maka "continue" akan dieksekusi terus-menerus, sehingga hanya nilai index == 7 yang dicetak. Ini mungkin bukan yang diinginkan.
 
-    **Perbaikan:**
+    **Perbaikan:**<br>
     <img src="img/forbreak4.png">
     <img src="img/output3.png">
 
-2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
-   Hasil :
+2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.<br>
+   Hasil :<br>
     ```dart
     void main() {
 
@@ -75,6 +75,7 @@ NIM/Absen : 2241720235 / 11
         return true;
     }
     ```
+    <br>
     ><img src="img/output5.png">
     ><img src="img/output6.png">
 
