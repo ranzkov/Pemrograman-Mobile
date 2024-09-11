@@ -9,7 +9,8 @@ NIM/Absen : 2241720235 / 11
     <img src="img/ifelse2.png">
     >Akan muncul error, karena Dart mengharapkan ekspresi boolean di dalam kondisi if, namun test adalah String, bukan bool
 
-    **Perbaikan:**
+    **Perbaikan:**<br>
+
     ><img src="img/ifelse3.png">
 
     <strong><span style="color:red">Praktikum 2: Menerapkan Perulangan "while" dan "do-while"</span></strong>
@@ -26,14 +27,15 @@ NIM/Absen : 2241720235 / 11
 
     <strong><span style="color:red">Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"</span></strong>
     <img src="img/forbreak1.png">
+    <br>
    **Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.**
     >Error: Index seharusnya index (huruf kecil) dan variabel harus diinisialisasi dalam for-loop.
-    Perbaikan: Ganti Index dengan index dan tambahkan index++ untuk memastikan perulangan berjalan dengan benar.
+    Perbaikan: Ganti Index dengan index dan tambahkan index++ untuk memastikan perulangan berjalan dengan benar.<br>
+
     <img src="img/forbreak2.png">
     <img src="img/output3.png">
 
-
-
+`   <br>
     <img src="img/forbreak3.png">
 
     **Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.**
@@ -42,6 +44,7 @@ NIM/Absen : 2241720235 / 11
     >- Kondisi pada else if: Kondisi index > 1 || index < 7 tidak tepat untuk range 10 hingga 26. Karena ini akan selalu true bagi nilai "index", kecuali index == 7, maka "continue" akan dieksekusi terus-menerus, sehingga hanya nilai index == 7 yang dicetak. Ini mungkin bukan yang diinginkan.
 
     **Perbaikan:**<br>
+
     <img src="img/forbreak4.png">
     <img src="img/output3.png">
 
@@ -76,6 +79,7 @@ NIM/Absen : 2241720235 / 11
     }
     ```
     <br>
+
     ><img src="img/output5.png">
     ><img src="img/output6.png">
 
