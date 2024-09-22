@@ -70,22 +70,108 @@ NIM/Absen : 2241720235 / 11<br>
    <br><strong>Praktikum 5 :</strong>
    <br>Langkah 1:
     <img src="img/datarecord.png">
-    >Records adalah tipe data baru di Dart 3.0 yang memungkinkan kita mengelompokkan berbagai nilai tanpa harus membuat class. Pada kode ini, record menyimpan beberapa field yang dapat diakses menggunakan nama (seperti a, b) atau indeks posisional.<br> - Error: Tidak ada error<br>
 
    <br>Langkah 2:
+    >Records adalah tipe data baru di Dart 3.0 yang memungkinkan kita mengelompokkan berbagai nilai tanpa harus membuat class. Pada kode ini, record menyimpan beberapa field yang dapat diakses menggunakan nama (seperti a, b) atau indeks posisional.<br> - Error: Tidak ada error<br>
 
    <br>Langkah 3:
+    <img src="img/datarecord2.png">
+   >Pada Dart versi sekarang, tidak semua compiler atau interpreter mendukung langsung destructuring menggunakan `var (a, b) = record`. Oleh karena itu, kita menggunakan properti `$1` dan `$2` untuk mengakses elemen dalam record. `$1` mengakses elemen pertama, dan `$2` mengakses elemen kedua.
 
    <br>Langkah 4:
+    <img src="img/datarecord3.png">
 
    <br>Langkah 5:
+    <img src="img/datarecord4.png">
 
 
 
 2. Jelaskan yang dimaksud Functions dalam bahasa Dart!<br>
    Jawaban : <br>
+   Dalam bahasa Dart, function adalah blok kode yang digunakan untuk menjalankan tugas atau perhitungan tertentu. Fungsi dapat didefinisikan dengan kata kunci void (untuk fungsi tanpa nilai balik) atau dengan tipe data yang sesuai untuk fungsi yang mengembalikan nilai. Fungsi mempermudah penggunaan kembali kode dan memecah tugas-tugas menjadi bagian kecil yang lebih terorganisir.
+   Contoh :
+   ```dart
+   void greet(String name) {
+      print("Hello, $name!");
+   }
+      
+   int add(int a, int b) {
+      return a + b;
+   } 
+   ```
+
 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!<br>
+   Jawaban :
+   Dart mendukung beberapa jenis parameter:
+
+   - Positional Parameters: Parameter ini harus diisi sesuai urutannya.
+   ```dart
+   void printInfo(String name, int age) {
+   print("$name is $age years old.");
+   }
+   Pemanggilan: printInfo("John", 25);
+   ```
+   - Optional Positional Parameters: Parameter yang bersifat opsional dan dapat dilewati.
+   ```dart
+   void printInfo(String name, [int age]) {
+   print(age != null ? "$name is $age years old." : "$name");
+   }
+   ```
+   Pemanggilan: printInfo("John");
+
+   - Named Parameters: Parameter yang bisa disebutkan saat memanggil fungsi.
+
+   ```dart
+   void printInfo({required String name, int age = 30}) {
+     print("$name is $age years old.");
+   }
+   ```
+   Pemanggilan: printInfo(name: "John");
+
+   - Optional Named Parameters: Named parameters yang opsional.
+
+   ```dart
+   void printInfo({String name = "Guest", int? age}) {
+   print("$name is $age years old.");
+   }
+   ```
+   Pemanggilan: printInfo();<br>
+
 4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!<br>
+   Jawaban :
+   Fungsi di Dart dianggap sebagai first-class objects, yang artinya fungsi dapat disimpan dalam variabel, dipassing sebagai argumen ke fungsi lain, dan dikembalikan sebagai nilai dari fungsi lain.
+   Contoh <br>
+   <img src="img/tugas4.png">
+
 5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!<br>
+   Jawaban :<br>
+   Anonymous Functions adalah fungsi tanpa nama yang dapat digunakan langsung di tempat fungsi dibutuhkan. Ini sering digunakan sebagai parameter atau dalam operasi sederhana.
+   Contoh
+   ```dart
+   var numbers = [1, 2, 3, 4];
+   numbers.forEach((num) {
+      print(num * 2);
+   });
+   ```
+   Dalam contoh di atas, fungsi yang diberikan ke forEach adalah anonymous function yang mengalikan setiap angka dengan 2.<br>
+
 6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!<br>
+   Jawaban :
+   - Lexical Scope adalah aturan yang menentukan bagaimana variabel dicari berdasarkan lokasi di mana variabel dideklarasikan di dalam kode. Dalam lexical scope, variabel yang dideklarasikan di dalam satu blok hanya bisa diakses di dalam blok tersebut atau di dalam blok bersarang.
+      >Contoh Lexical Scope:
+   <img src="img/tugas6.png">
+
+   - Lexical Closures adalah fungsi yang dapat "menutup" variabel dari lexical scope di luar fungsi itu dan mengingat nilainya bahkan setelah konteks di mana variabel itu dideklarasikan selesai dieksekusi. 
+     >Contoh Lexical Closure:
+   <img src="img/tugas7.png">
+  
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!<br>
+   Jawaban :
+   Di Dart, kita bisa mengembalikan beberapa nilai dengan menggunakan tuples atau Records (Dart 3.0) atau menggunakan class untuk membungkus beberapa nilai.
+   >Contoh dengan Record:
+   <img src="img/tugas8.png">
+
+   <br>
+   
+   >Contoh dengan class:
+   <img src="img/tugas9.png">
