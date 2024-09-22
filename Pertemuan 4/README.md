@@ -172,6 +172,6 @@ NIM/Absen : 2241720235 / 11<br>
    <img src="img/tugas8.png">
 
    <br>
-   
+
    >Contoh dengan class:
    <img src="img/tugas9.png">
