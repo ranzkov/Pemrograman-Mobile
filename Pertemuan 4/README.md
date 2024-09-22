@@ -141,7 +141,7 @@ NIM/Absen : 2241720235 / 11<br>
    Jawaban :
    Fungsi di Dart dianggap sebagai first-class objects, yang artinya fungsi dapat disimpan dalam variabel, dipassing sebagai argumen ke fungsi lain, dan dikembalikan sebagai nilai dari fungsi lain.
    Contoh <br>
-   <img src="img/tugas4.png">
+   <img src="img/tugas5.png">
 
 5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!<br>
    Jawaban :<br>
