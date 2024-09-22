@@ -40,12 +40,13 @@ NIM/Absen : 2241720235 / 11<br>
     Error: Variabel list1 digunakan sebelum dideklarasikan. Dart akan menampilkan error karena list1 tidak pernah didefinisikan.
 
     <br>Langkah 2:
-    Perbaikan: Deklarasikan list1 terlebih dahulu.
+   <br> Perbaikan: 
+   <br>Deklarasikan list1 terlebih dahulu.
    <img src="img/spreadcontrol2.png">
 
     <br>Langkah 3:
    <img src="img/spreadcontrol3.png">
-    Langkah 4:
+    Langkah 4:<br>
     Output ketika promoActive = true:
    <img src="img/spreadcontrol4.png">
     Output ketika promoActive = false:
@@ -101,7 +102,7 @@ NIM/Absen : 2241720235 / 11<br>
    ```
 
 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!<br>
-   Jawaban :
+   Jawaban :<br>
    Dart mendukung beberapa jenis parameter:
 
    - Positional Parameters: Parameter ini harus diisi sesuai urutannya.
@@ -156,7 +157,7 @@ NIM/Absen : 2241720235 / 11<br>
    Dalam contoh di atas, fungsi yang diberikan ke forEach adalah anonymous function yang mengalikan setiap angka dengan 2.<br>
 
 6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!<br>
-   Jawaban :
+   Jawaban :<br>
    - Lexical Scope adalah aturan yang menentukan bagaimana variabel dicari berdasarkan lokasi di mana variabel dideklarasikan di dalam kode. Dalam lexical scope, variabel yang dideklarasikan di dalam satu blok hanya bisa diakses di dalam blok tersebut atau di dalam blok bersarang.
       >Contoh Lexical Scope:
    <img src="img/tugas6.png">
@@ -166,7 +167,7 @@ NIM/Absen : 2241720235 / 11<br>
    <img src="img/tugas7.png">
   
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!<br>
-   Jawaban :
+   Jawaban :<br>
    Di Dart, kita bisa mengembalikan beberapa nilai dengan menggunakan tuples atau Records (Dart 3.0) atau menggunakan class untuk membungkus beberapa nilai.
    >Contoh dengan Record:
    <img src="img/tugas8.png">
